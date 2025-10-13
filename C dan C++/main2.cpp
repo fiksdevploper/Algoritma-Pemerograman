@@ -12,5 +12,7 @@ main()
     printf("\n\n"); 
     printf("Nama pertama = %s\n",nm1); 
     printf("Nama kedua = %s\n",nm2); 
-    getch(); 
+    printf("\n\n"); 
+    puts("Selamat Datang"); puts(nm1); 
+    printf("Selamat Datang %s", nm2);  
 }
