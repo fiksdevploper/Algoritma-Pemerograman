@@ -3,23 +3,25 @@
 using namespace std;
 
 int main(){
-   char a[20] = "Belajar Tipe data"; 
-    short b;
-    int c;
-    long d; 
-    float e; 
-    double f;
+    short a; 
+    int b; 
+    long c; 
+    float d; 
+    double e; 
     char data_karakter = 'A'; 
-    int data_integer = 10; 
-    float data_real = 3.14; 
+    char materi1[9] = "Variabel"; 
+ 
+    a = 10000; 
+    b = 1000000; 
+    c = 1000000000; 
+    d = 3.12; 
+    e = 3.12345;
     
-    cout << "Tipe data char = " << a << endl;
-    cout << "Tipe data short = " << b << endl;
-    cout << "Tipe data int = " << c << endl;
-    cout << "Tipe data long = " << d << endl;
-    cout << "Tipe data float = " << e << endl;
-    cout << "Tipe data double = " << f << endl;
-    cout << "Tipe data char = " << data_karakter << endl;
-    cout << "Tipe data integer = " << data_integer << endl;
-    cout << "Tipe data real = " << data_real << endl;
+    cout << "Tipe data short = " << a << endl; 
+    cout << "Tipe data int = " << b << endl; 
+    cout << "Tipe data long = " << c << endl; 
+    cout << "Tipe data float = " << d << endl; 
+    cout << "Tipe data double = " << e << endl; 
+    cout << "Tipe data char = " << data_karakter << endl; 
+    cout << "Tipe data string = " << materi1 << endl;
 }
