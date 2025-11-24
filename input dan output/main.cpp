@@ -35,7 +35,6 @@ int main() {
     std::cout << "\n=========Struk Pembelian============" << std::endl;
     std::cout << "Nama Barang : " << NamaBarang << std::endl;
     
-    // Menggunakan iomanip untuk format mata uang
     std::cout << std::fixed << std::setprecision(2);
     
     std::cout << "Harga Satuan: Rp " << (double)HargaBarang << std::endl;

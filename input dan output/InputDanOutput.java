@@ -42,8 +42,7 @@ public class InputDanOutput {
         double hargaSetelahDiskonPerUnit = (double)hargaBarang * (1.0 - diskon);
         long totalBayar = Math.round(hargaSetelahDiskonPerUnit * jumlahBarang);
         long jumlahDiskonTotal = totalBelanjaAwal - totalBayar;
-    
-        
+       
         System.out.println("\n=========Struk Pembelian============");
         System.out.println("Nama Barang : " + namaBarang);
         System.out.println("Harga Satuan: Rp " + formatter.format(hargaBarang));
